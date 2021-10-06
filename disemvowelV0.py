@@ -4,4 +4,4 @@ def disemvowel(n):
 	n = n.replace(i,"")
     return n
 n = 'hello everyone'
-print(disemblvowel(n))
+print(disemvowel(n))
