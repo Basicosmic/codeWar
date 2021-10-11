@@ -22,3 +22,11 @@ a1 = "inmanylanguages"
 a2 = "theresapairoffunctions"
 
 print(longest(a1, a2))
+
+# Version 2
+# set() must have unique element inside
+# so repeated element will disappear
+# sort the set -> sorted list
+# join list -> string
+def longest(s1, s2):
+    return ''.join(sorted((set(s1+s2))))
